@@ -35,7 +35,7 @@ router.get('/comments/count', async (req, res) => {
   }
 });
 
-// @POST - Create new comment - Sort by date (DESC)
+// @POST - Create a new comment - Sort by date (DESC)
 // NOTE: Works only if user attended a workshop, and user can only comment once. In MongoDB, "participants.email" (in Workshop) & "email" (in Comments) are stored as indexes for fast response time - O(log(n)).
 // @route - /comments
 // @access - Public
