@@ -4,8 +4,6 @@ const Comment = require('../models/comment');
 const Workshop = require('../models/workshop');
 const { check, validationResult } = require('express-validator');
 
-const reviews = require('../data/commentsData');
-
 // @GET - Load more comments
 // @route - /comments?limit=10&skip=20
 // @access - Public
