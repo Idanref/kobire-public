@@ -13,7 +13,7 @@ The application contains features such as:
 
 All managed by backend.
 
-This is the public project, there is also an **“Admin Interface”** project that allows the admin to:
+#### This is the public project, there is also an **“Admin Interface”** project that allows the admin to:
 * Create new workshop
 * Edit workshop details (such as location, date, sold-out, price, participants, Bit/PayBox URL and more)
 * Approve that a user has transferred the required payment (depending on the price & number of tickets) and add them to the workshop participants list.
