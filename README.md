@@ -25,8 +25,9 @@ All managed by backend.
 
 ### Workshops:
 * If the workshop date has passed, the user will not be able to choose it.
-* After the confirmation email is sent to the user, they will have 3 attempts to insert the correct code
-* When a user is approved, they will receive a receipt with all the details regarding the transaction & the event
+* If the workshop is sold-out or doesn't have both Bit & PayBox URL - the user will see it but won't be able to choose it.
+* After the confirmation email is sent to the user, they will have 3 attempts to insert the correct code.
+* When a user is approved, they will receive a receipt with all the details regarding the transaction & the event.
 
 ### Coupons:
 The user will fail to apply coupon if:
