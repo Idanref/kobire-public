@@ -8,6 +8,7 @@ The application allows a user to purchase tickets for mobile photography worksho
 <br>
 The application contains many features such as:
 * Email verification.
+* Purchasing using PayBox/Bit (No external API was used)
 * Purchasing in discount prices using coupons.
 * Reading & writing reviews.
 * And much more!
