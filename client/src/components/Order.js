@@ -66,10 +66,19 @@ const Order = ({ getLocations, getWorkshopsInCity, updateCurrentWorkshop, update
                 return (
                   <label key={item._id} className='option'>
                     <input type='radio' name='option' disabled={item.soldOut || (!item.bitUrl && !item.payBoxUrl)} onChange={() => handleChooseDate(item)} />
-                    <span className={item.soldOut || (!item.bitUrl && !item.payBoxUrl) ? 'title animated fadeIn unavailable' : 'title animated fadeIn'}>
+                    <span
+                      /* classnames were unavailable/available with linethrough if soldOut or no bit+paybox, removed it */
+                      className='title animated fadeIn'
+                    >
                       <Moment utc format='יום dddd, DD/MM/YYYY בשעה HH:mm'>
                         {item.date}
                       </Moment>
+                      {item.soldOut && (
+                        <>
+                          <br />
+                          <span className='clr-red'>!אזל מהמלאי</span>
+                        </>
+                      )}
                     </span>
                   </label>
                 );
@@ -189,6 +198,10 @@ const Wrapper = styled.div`
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+  }
+
+  .clr-red {
+    color: lightsalmon;
   }
 
   @media only screen and (max-width: 768px) {
