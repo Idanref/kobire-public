@@ -6,7 +6,7 @@
 
 The application allows a user to purchase tickets for mobile photography workshops lead by Kobi Refaeli (@kobire).
 <br>
-The application contains many features such as:
+The application contains features such as:
 * Email verification.
 * Purchasing using PayBox/Bit (No external API was used)
 * Purchasing in discount prices using coupons.
@@ -17,7 +17,7 @@ All managed by backend.
 
 ## Admin Interface
 
-#### ! This is the public project, there is also an **“Admin Interface”** project that allows the admin to:
+#### ! This page shows the public project, there is also an **“Admin Interface”** project that allows the admin to:
 * Create a new workshop
 * Edit workshop details (such as location, date, sold-out, price, participants, Bit/PayBox URL and more)
 * Approve that a user has transferred the required payment (depending on the price & number of tickets) and add them to the workshop participants list.
