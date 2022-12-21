@@ -2,8 +2,9 @@
 
 #### A Web App Built With ReactJS, Redux, NodeJS, MongoDB, ExpressJS.
 
-#### Live Site: https://kobire.herokuapp.com/
-#### Screenshots: https://github.com/Idanref/kobire-public/tree/main/Screenshots
+**Live Site:** https://kobire.herokuapp.com/ (Currently offline due to new Heroku's policy)
+
+**Screenshots:** https://github.com/Idanref/kobire-public/tree/main/Screenshots/
 
 The application allows a user to purchase tickets for mobile photography workshops led by Kobi Refaeli (@kobire).
 <br>
