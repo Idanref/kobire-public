@@ -2,7 +2,7 @@
 
 #### A Web App Built With ReactJS, Redux, NodeJS, MongoDB, ExpressJS.
 
-**Live Site:** https://kobire.herokuapp.com/ (Currently offline due to new Heroku's policy)
+**Live Site:** https://kobire.herokuapp.com/
 
 **Screenshots:** https://github.com/Idanref/kobire-public/tree/main/Screenshots/
 
